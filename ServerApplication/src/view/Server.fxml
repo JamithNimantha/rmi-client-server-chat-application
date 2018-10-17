@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <?import com.jfoenix.controls.JFXButton?>
-<?import javafx.scene.control.Label?>
 <?import javafx.scene.control.TextArea?>
 <?import javafx.scene.control.TextField?>
 <?import javafx.scene.layout.AnchorPane?>
@@ -16,6 +15,6 @@
             <Font name="System Bold" size="16.0" />
          </font>
       </JFXButton>
-      <Label fx:id="lblChatNameBar" layoutX="391.0" layoutY="28.0" prefHeight="350.0" prefWidth="129.0" />
+      <TextArea fx:id="txtChatters" editable="false" layoutX="386.0" layoutY="25.0" prefHeight="266.0" prefWidth="136.0" />
    </children>
 </AnchorPane>
